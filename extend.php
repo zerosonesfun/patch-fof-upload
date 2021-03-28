@@ -8,14 +8,9 @@
  */
 
 use Flarum\Extend;
-use Flarum\Frontend\Document;
 use s9e\TextFormatter\Configurator;
 
 return [
-    (new Extend\Frontend('forum'))
-        ->content(function (Document $document) {
-            $document->head[] = '';
-        }),
     (new Extend\Formatter)
         ->configure(function (Configurator $config) {
             $config->BBCodes->addCustom(
