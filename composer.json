@@ -1,8 +1,8 @@
 {
-    "name": "username/flarum-ext-name",
-    "description": "A lovely description.",
+    "name": "zerosonesfun/patch-fof-upload",
+    "description": "Patch fof upload.",
     "type": "flarum-extension",
-    "keywords": ["discussion", "template"],
+    "keywords": ["discussion", "images"],
     "license": "MIT",
     "authors": [
         {
@@ -12,8 +12,8 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/zerosonesfun/flarum-bbcode-template/issues",
-        "source": "https://github.com/zerosonesfun/flarum-bbcode-template",
+        "issues": "https://github.com/zerosonesfun/patch-fof-upload/issues",
+        "source": "https://github.com/zerosonesfun/patch-fof-upload",
         "forum": "https://discuss.flarum.org"
     },
     "homepage": "https://www.wilcosky.com",
@@ -28,15 +28,15 @@
     },
     "autoload": {
         "psr-4": {
-            "ZerosOnesFun\\ExtensionName\\": "src/"
+            "ZerosOnesFun\\PatchFofUpload\\": "src/"
         }
     },
     "extra": {
         "flarum-extension": {
-            "title": "Title",
+            "title": "Patch Upload",
             "category": "feature",
             "icon": {
-                "name": "fas fa-",
+                "name": "fas fa-wrench",
                 "backgroundColor": "#ddd",
                 "color": "#000"
             }
